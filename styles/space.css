@@ -13,3 +13,21 @@
   left:0;
   top:0;
 }
+.space .jupiter{
+  position:absolute;
+  border-radius:100%;
+  background-color:tan;
+  height:300px;
+  width:300px;
+  left:-100px;
+  top:150px;
+}
+.space .moon{
+  position:absolute;
+  border-radius:100%;
+  background-color:gray;
+  height:50px;
+  width:50px;
+  left:150px;
+  top:100px;
+}

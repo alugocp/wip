@@ -1,0 +1,15 @@
+.content{
+  top:calc(var(--space-end) + 200px);/* finalize later */
+  transform:translateX(-50%);
+  position:absolute;
+  width:80%;
+  left:50%;
+}
+.row-spacer{
+  padding:75px 0px;
+}
+
+.content h1{
+  color:var(--red);
+  font-weight:bold;
+}

@@ -1,0 +1,15 @@
+:root{
+  --space-end:350px;
+}
+
+.space{
+  --void:#494949;
+  overflow:hidden;
+  background-color:var(--void);
+  height:var(--space-end);
+  position:absolute;
+  width:100%;
+  z-index:-1;
+  left:0;
+  top:0;
+}

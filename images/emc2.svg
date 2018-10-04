@@ -1,0 +1,10 @@
+<svg width="200" height="250" viewBox="0 0 200 250" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .emc2{
+      font-family:sans-serif;
+      font-weight:bold;
+      font-size:50px;
+    }
+  </style>
+  <text x="0" y="50" fill="#E21836" class="emc2">E=mc²</text>
+</svg>

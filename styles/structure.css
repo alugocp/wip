@@ -1,0 +1,26 @@
+.logo{
+  transform:translate(-50%,-50%);
+  position:absolute;
+  top:var(--space-end);
+  left:50%;
+  width:400px;
+  background-color:white;
+  padding:15px 50px;
+  border-radius:15px;
+}
+
+.navbar{
+  transform:translateX(-50%);
+  position:absolute;
+  left:50%;
+  top:0;
+  padding:10px 25px;
+  border-radius:0px 0px 15px 15px;
+  background-color:var(--red);
+  color:var(--dark-red);
+  font-weight:bold;
+  font-size:25px;
+}
+.navbar a{
+  color:white;
+}

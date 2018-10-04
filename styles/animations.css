@@ -1,0 +1,6 @@
+.animation{
+  transform:translateY(30%);
+  position:relative;
+  left:0%;
+  top:50%;
+}

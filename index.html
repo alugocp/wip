@@ -3,6 +3,7 @@
 <head>
   <script src="libs/jquery.min.js"></script>
   <script src="libs/bootstrap.min.js"></script>
+  <script src="scripts/animations.js"></script>
   <link rel="stylesheet" href="libs/bootstrap.min.css">
   <link rel="stylesheet" href="styles/color-scheme.css">
   <link rel="stylesheet" href="styles/animations.css">
@@ -30,7 +31,7 @@
   <div class="content container">
     <div class="row">
       <div class="col-md-4">
-        <img src="images/emc2.svg" class="animation">
+        <div class="animation emc2" data-text="E=MC²">E=MC²</div>
       </div>
       <div class="col-md-8">
         <h1>Hello and Welcome!</h1>
@@ -55,7 +56,36 @@
           Mentor/mentee matches are assigned for the school year, but they can last longer as good relationships form.
         </p>
       </div>
-      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <div class="animation lightbulb">
+          <img src="images/venusbulb.svg" width="100px">
+          <div class="light light-1"></div>
+          <div class="light light-2"></div>
+          <div class="light light-3"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row row-spacer"></div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="animation atom">
+          <img src="images/atom.svg" width="75px">
+          <div class="ring ring-1"></div>
+          <div class="ring ring-2"></div>
+          <div class="ring ring-3"></div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <h1>Other header</h1>
+        <p>
+          How'd I even get here son?
+        </p>
+      </div>
+    </div>
+    <div class="row row-spacer"></div>
+    <div class="footer">
+      Designed by <a href="http://alexlugo.net">Alex Lugo</a>
+      and <a href="https://www.linkedin.com/in/kelly-ngo-729547162/">Kelly Ngo</a>
     </div>
   </div>
 </body>

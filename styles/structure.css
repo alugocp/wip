@@ -10,6 +10,7 @@
 }
 
 .navbar{
+  max-width:90%;
   transform:translateX(-50%);
   position:absolute;
   left:50%;
@@ -22,5 +23,27 @@
   font-size:25px;
 }
 .navbar a{
+  transition:color 0.1s ease;
+  cursor:pointer;
   color:white;
+}
+.navbar a:hover{
+  text-decoration:none;
+  color:#EDEDED;
+}
+
+.footer{
+  text-align:center;
+  padding:5px;
+  font-size:20px;
+  font-family:sans-serif;
+  background-color:black;
+  color:white;
+}
+.footer a{
+  color:var(--red);
+}
+.footer a:hover{
+  text-decoration:underline;
+  cursor:pointer;
 }

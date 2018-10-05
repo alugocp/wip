@@ -1,0 +1,14 @@
+let yellow=<60,100,100>
+let gray=<0,0,55>
+let width=50
+~CenterCirc(cx:500,cy:500,r:100,fill:yellow)
+
+Padding(x:375,y:375,w:250,h:250)
+Path(stroke:yellow,sw:width,fill:-1,points:<
+	<400,500>,<500,600>,<600,500>,<500,400>
+>,edges:<
+	<0,50,-50,0>,<50,0,0,50>,<0,-50,50,0>,<-50,0,0,-50>
+>)
+Rect(fill:gray,x:500-width/2,y:600,
+	w:width,h:150,z:9)
+Rect(fill:gray,x:500-width*1.5,y:650,w:width*3,h:width)

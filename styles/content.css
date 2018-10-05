@@ -1,9 +1,15 @@
+body{
+  overflow-x:hidden;
+}
 .content{
+  padding:0;
   top:calc(var(--space-end) + 200px);/* finalize later */
-  transform:translateX(-50%);
   position:absolute;
-  width:80%;
-  left:50%;
+  width:100%;
+  left:0;
+}
+.row{
+  padding:0 10%;
 }
 .row-spacer{
   padding:75px 0px;

@@ -13,6 +13,15 @@
   left:0;
   top:0;
 }
+.space .sun{
+  position:absolute;
+  border-radius:100%;
+  background-color:yellow;
+  height:600px;
+  width:600px;
+  right:-300px;
+  top:-400px;
+}
 .space .jupiter{
   position:absolute;
   border-radius:100%;
@@ -21,13 +30,31 @@
   width:300px;
   left:-100px;
   top:150px;
+  z-index:1;
 }
 .space .moon{
+  animation-iteration-count:infinite;
+  animation-name:moon-orbit;
+  animation-duration:180s;
   position:absolute;
   border-radius:100%;
   background-color:gray;
   height:50px;
   width:50px;
-  left:150px;
-  top:100px;
+}
+@keyframes moon-orbit{
+  0%{
+    left:200px;
+    top:100px;
+    z-index:2;
+  }
+  50%{
+    left:-150px;
+    top:300px;
+    z-index:-1;
+  }
+  100%{
+    left:200px;
+    top:100px;
+  }
 }

@@ -1,6 +1,7 @@
 /* Bootstrap structure */
 body{
   overflow-x:hidden;
+  font-family: "PT_Sans";
 }
 .content{
   padding:0;
@@ -36,4 +37,9 @@ body{
   display:inline-block;
   height:45px;
   width:45px;
+}
+
+@font-face {
+  font-family:"PT_Sans";
+  src: url("../fonts 1/PT_Sans/PT_Sans-Web-Regular.ttf");
 }

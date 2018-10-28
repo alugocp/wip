@@ -5,7 +5,6 @@
 .space{
   --void:#494949;
   overflow:hidden;
-  filter:grayscale(1);
   background-image:url("../images/background.png");
   background-color:var(--void);
   height:var(--space-end);

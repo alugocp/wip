@@ -1,7 +1,8 @@
 /* Bootstrap structure */
 body{
-  overflow-x:hidden;
   font-family: "PT_Sans";
+  overflow-x:hidden;
+  font-size:18px;
 }
 .content{
   padding:0;
@@ -37,6 +38,10 @@ body{
   display:inline-block;
   height:45px;
   width:45px;
+}
+.contact-wrapper{
+  margin-bottom:50px;
+  text-align:center;
 }
 
 @font-face {
